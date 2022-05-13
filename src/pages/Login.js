@@ -8,6 +8,7 @@ const Login = ({setUser}) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setUser({name:name,email:email});
+    
     navigate('/dashboard');
 
   };
