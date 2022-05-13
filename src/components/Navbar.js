@@ -8,6 +8,8 @@ export const Navbar = () => {
       <Link to='/about' className='btn'>About</Link>
       <Link to='/products' className='btn'>Products</Link>
       <Link to='/first' className='btn'>First Page</Link>
+      <Link to='/login' className='btn'>login</Link>
+      {/* <Link to='/dashboard' className='btn'>First Page</Link> */}
       <Link to='/anything' className='btn'>Error Page</Link>
 
     </nav>
