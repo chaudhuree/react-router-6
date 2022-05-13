@@ -6,6 +6,7 @@ import Error from './pages/Error';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import { SharedLayout } from './pages/SharedLayout';
+import SingleProduct from './pages/SingleProduct';
 function App() {
   return <Router>
     <Navbar/>
@@ -17,6 +18,7 @@ function App() {
         <Route path='first' element={<div>First page</div>}></Route>
         <Route path='about' element={<About />} />
         <Route path='products' element={<Products />} />
+        <Route path='products/:id' element={<SingleProduct />} />
       </Route>
       <Route path='*' element={<Error />} />
 
